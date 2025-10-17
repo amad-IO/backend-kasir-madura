@@ -1,0 +1,50 @@
+# --- Build (Maven/Gradle)
+target/
+build/
+
+# --- Maven wrapper: keep the wrapper jar, ignore the rest
+.mvn/
+!/.mvn/wrapper/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# --- IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/
+
+# --- STS / NetBeans (opsional, biarkan saja)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- Logs & temp
+/logs/
+*.log
+*.tmp
+hs_err_pid*
+replay_pid*
+
+# --- OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Env / config lokal
+*.env
+*.properties.local
+*.yml.local
+application-local.yml
